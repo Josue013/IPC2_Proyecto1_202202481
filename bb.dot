@@ -1,0 +1,28 @@
+ digraph G {
+	            a0 [ label=" Prueba Desordenada" fontname="Impact" bgcolor="#ff3d61" style="filled"] 
+                a1 [ label="A = 4" fontname="Impact" bgcolor="#ff3d61" style="filled"]
+
+                a2 [ shape="none" fontname="Impact" label=< <TABLE border="0" cellspacing="10" cellpadding="10" style="rounded" bgcolor="blue:red" gradientangle="315">
+
+<TR><TD border="1" bgcolor="#ff455b">G = 1 (t = 1,3)</TD><TD border="1" bgcolor="#3bebff">5</TD>
+<TD border="1" bgcolor="#3bebff">7</TD>
+<TD border="1" bgcolor="#3bebff">0</TD>
+<TD border="1" bgcolor="#3bebff">6</TD>
+</TR>
+<TR><TD border="1" bgcolor="#ff455b">G = 2 (t = 2,5)</TD><TD border="1" bgcolor="#3bebff">0</TD>
+<TD border="1" bgcolor="#3bebff">0</TD>
+<TD border="1" bgcolor="#3bebff">9</TD>
+<TD border="1" bgcolor="#3bebff">4</TD>
+</TR>
+<TR><TD border="1" bgcolor="#ff455b">G = 3 (t = 4)</TD><TD border="1" bgcolor="#3bebff">1</TD>
+<TD border="1" bgcolor="#3bebff">0</TD>
+<TD border="1" bgcolor="#3bebff">1</TD>
+<TD border="1" bgcolor="#3bebff">5</TD>
+</TR>
+
+</TABLE>>]
+
+                        a0 -> a1;
+
+                        a0 -> a2;
+}
