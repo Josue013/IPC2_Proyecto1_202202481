@@ -11,7 +11,7 @@ class Archivo:
         return self.archivo
 
 def opcion_graficar():
-    nombre = input("Ingrese el nombre de la señal a graficar: \n")
+    nombre = input("Ingrese el nombre de la señal a graficar: ")
     if ar.validar_nombre_senal(nombre) == False:
         print("No existe la señal que ingresaste")
     else:
@@ -19,7 +19,7 @@ def opcion_graficar():
         print("1. Original")
         print("2. Patrones")
         print("3. Reducida")
-        opcion_grafica = input("Ingrese una opcion: \n")
+        opcion_grafica = input("Ingrese una opcion: ")
 
         if opcion_grafica == "1":
             print("")

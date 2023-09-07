@@ -38,14 +38,14 @@ def leer_xml(archivo):
             lista_grupos_senal = lista_grupo()
 
             datos_senal(senal_, valor_t, valor_A, lista_dato, lista_patrones)
-            print(f"> Generando matriz binaria de: {nombre} ...\n")
+            print(f"> Calculando matriz binaria de: {nombre} ...\n")
             matriz_patrones(lista_patrones, valor_t, valor_A,lista_grupos_senal)
 
             print(f"> Realizando suma de tuplas de: {nombre} ...\n")
             nueva_senal = Senal(nombre, valor_t, valor_A, lista_dato, lista_patrones, lista_grupos_senal)
             lista.verificar_senal(nombre)
             lista.insertar_senal(nueva_senal)
-            print("> Proceso Finalizado\n")
+            print("> Terminando el Proceso\n")
         elif validar_tiempo_amplitud(valor_t, valor_A) == False:
             print(f"Datos invalidos, Valor t = {valor_t} o A = {valor_A} Pasan el rango en {senal_.get('nombre')}")
     
